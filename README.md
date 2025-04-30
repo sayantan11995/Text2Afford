@@ -1,5 +1,5 @@
 
-# 🧠 Text2Afford: Probing Object Affordance Prediction Abilities of Language Models Solely from Text
+# 🧠 Text2Afford: Probing Object Affordance Prediction Abilities of Language Models Solely from Text (CONLL 2025)
 
 <div align="center">
   <img src="Intro.png" alt="Teaser Image" width="600"/>
@@ -72,8 +72,8 @@ python src/<method>.py
 
 ## 📁 Dataset Details
 
-- **Total Samples**: 35,520 sentence-object pairs
-- **Affordance Classes**: 15 (e.g., *graspable*, *sittable*, *cuttable*)
+- **Total Samples**: 35,520 sentence-object-affordance tuples
+- **Affordance Classes**: 15 (e.g., *grasp*, *sitOn*, *ride*)
 - **Annotations**: Crowdsourced with high inter-annotator agreement
 - **Format**: TSV with columns for sentence, object, and affordance labels
 
